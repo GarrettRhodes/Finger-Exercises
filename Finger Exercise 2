@@ -1,0 +1,6 @@
+x = 10
+ans = 0
+itersLeft = abs(x) 
+n = raw_input('Enter an int: ')
+while (itersLeft != 0):
+    itersLeft = itersLeft - 1
