@@ -1,9 +1,16 @@
-x = 10
-itersLeft = x
+itersLeft = 10
+even = 0
+odd = 0
+i = int(raw_input("Enter an int: "))
 while (itersLeft != 0):
     raw_input('Enter an int: ')
     itersLeft = itersLeft - 1
-if x%2 == 0:
-    print 'No Odd Integers'
+    if (i%2 != 0):
+        if (i > odd):
+            odd = i
+    else:
+        even = even + 1
+if even == 10:
+    print 'No Odd Numbers'
 else:
-    print max
+    print odd
